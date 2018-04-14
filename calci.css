@@ -1,0 +1,42 @@
+body{
+    margin-top:50px;
+}
+.ca{
+    width: 241px;
+    margin-left: 420px;
+    margin-right: 420px;
+    background-color: darkgrey;
+
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+
+
+}
+.btn, .btno{
+    width: 60px;
+    height: 60px;
+    display:flex;
+    text-align: center;
+
+}
+#textbox{
+    width:236px;
+    height:100px;
+    background-color: darkgrey;
+    font-size: 50px;
+    text-align:right;
+}
+#zero{
+    width: 120px;
+}
+#Div, #Mul, #Sub, #Add, #Equal{
+    background-color: darkorange;
+}
+
+
