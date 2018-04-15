@@ -1,5 +1,5 @@
 displayNum="";
-storedNum="form.txt.value";
+storedNum="";
 operation=0;
 queuedOperation=0;
 calculationFinished=false;
@@ -45,7 +45,7 @@ function e() {
         operation = 0;
         queuedOperation = 0;
         displayNum = "";
-        storedNum = "form.txt.value";
+        storedNum = " ";
 
 
 }
