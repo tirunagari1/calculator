@@ -12,28 +12,28 @@
 </head>
 <body>
 <div class="ca">
-    <form name="form" id="container">
+    <form name="form" id="container" >
         <table><tr>
 
-<div>        <input type="text" class="t" id="textbox" name="txt" placeholder="0"></div>
-<div>        <input class="btno" type="button"  value="CE" onclick="ce()" >                             </div>
+<div>        <input type="text" class="t" id="textbox" name="txt" placeholder="0" readonly></div>
+<div>        <input class="btno" type="button"  value="CE" onclick="ce()"   >                             </div>
 <div>        <input class="btno" type="button"  value="<-" onclick="bs()">                                   </div>
 <div>        <input class="btno" type="button" name="btnp" id="Per" value="%" onclick="display(btnp.value)"> </div>
-<div>        <input class="btno" type="button" name="btnd" id="Div" value="÷" onclick="display(btnd.value)" ></div>
+<div>        <input class="btno" type="button" name="btnd" id="Div" value="/" onclick="display(btnd.value)" ></div>
 <div>        <input class="btn" type="button" name="btn7" value="7" onclick="display(btn7.value)">         </div>
 <div>        <input class="btn" type="button" name="btn8" value="8" onclick="display(btn8.value)">         </div>
 <div>        <input class="btn" type="button" name="btn9" id="nine" value="9" onclick="display(btn9.value)">          </div>
-<div>        <input class="btno" type="button" name="btnm" id="Mul" value="*" onclick="display(btnm.value)"></div>
+<div>        <input class="btno" type="button" name="btnm" id="Mul" value="*" onclick="display(btnm.value='')"></div>
 <div>        <input class="btn" type="button" name="btn4" value="4" onclick="display(btn4.value)">          </div>
 <div>        <input class="btn" type="button" name="btn5" value="5" onclick="display(btn5.value)">           </div>
 <div>        <input class="btn" type="button" name="btn6" value="6" onclick="display(btn6.value)">          </div>
-<div>        <input class="btno" type="button" name="btns" id="Sub" value="-" onclick="display(btns.value)"></div>
+<div>        <input class="btno" type="button" name="btns" id="Sub" value="-" onclick="parseInt(display(btns.value))"></div>
 <div>        <input class="btn" type="button" name="btn1" value="1" onclick="display(btn1.value)">           </div>
 <div>        <input class="btn" type="button" name="btn2" value="2" onclick="display(btn2.value)">           </div>
 <div>        <input class="btn" type="button" name="btn3" value="3" onclick="display(btn3.value)">           </div>
-<div>        <input class="btno" type="button" name="btna" id="Add" value="+" onclick="display(btna.value) "></div>
+<div>        <input class="btno" type="button" name="btna" id="Add" value="+" onclick="display(btna.value)"></div>
 <div>        <input class="btn" type="button" id="zero" name="btn0" value="0" onclick="display(btn0.value)" >            </div>
-<div>        <input class="btno" type="button" name="btndot" id="Dot" value="." onclick="display(btndot.value)"></div>
+<div>        <input class="btno" type="button" name="btndot" id="Dot" value="."  onclick="decimal('.')"></div>
 <div>        <input class="btno" type="button" name="btne" id="Equal" value="=" onclick="e()"></div>
         </tr></table>
     </form></div>
